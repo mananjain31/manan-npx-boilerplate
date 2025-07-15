@@ -1,0 +1,11 @@
+{
+  "name": "manan-npx-boilerplate-app",
+  "version": "0.1.0",
+  "description": "A project created using my custom boilerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
