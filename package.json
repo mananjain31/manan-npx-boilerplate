@@ -1,0 +1,18 @@
+{
+  "name": "manan-npx-boilerplate",
+  "version": "1.1.0",
+  "description": "My custom boilerplate",
+  "bin": {
+    "manan-npx-boilerplate": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "keywords": [
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Manan Jain - mananjain31 (github)",
+  "license": "MIT"
+}
