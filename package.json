@@ -1,6 +1,6 @@
 {
   "name": "manan-npx-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My custom boilerplate",
   "bin": {
     "manan-npx-boilerplate": "bin/index.js"
