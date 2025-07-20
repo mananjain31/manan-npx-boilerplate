@@ -1,6 +1,6 @@
-# <%= projectName =%>
+# <%= projectName %>
 
-This project was generated using `npx manan-npx-boilerplate-app`.
+<%= projectDescription %>
 
 ## Getting Started
 

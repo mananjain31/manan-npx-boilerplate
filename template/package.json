@@ -1,7 +1,7 @@
 {
-  "name": "<%= projectName =%>",
+  "name": "<%= projectName %>",
   "version": "0.1.0",
-  "description": "<%= projectDescription =%>",
+  "description": "<%= projectDescription %>",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

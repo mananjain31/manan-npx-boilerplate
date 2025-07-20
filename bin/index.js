@@ -3,23 +3,23 @@
 const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
-const inquirer = require("inquirer");
 
 const src = path.join(__dirname, "../template");
 const dest = process.cwd();
 
 async function prompt() {
-  const { projectName, projectDescription } = await inquirer.prompt([
+  const inquirer = await require("inquirer");
+  const { projectName, projectDescription } = await inquirer.default.prompt([
     {
       type: "input",
       name: "projectName",
-      message: "Project Name",
+      message: "Project Name :",
       default: "my-app",
     },
     {
       type: "input",
       name: "projectDescription",
-      message: "Description (optional)",
+      message: "Description (optional) :",
       default: "A project created using mananjain31's custom boilerplate",
     },
   ]);
@@ -42,11 +42,12 @@ function copyRecursive(srcDir, destDir, data) {
   });
 }
 
-async function main() {
-  const answers = await prompt();
-  console.log(`Setting up project: ${answers.projectName}`);
-  copyRecursive(src, dest, answers);
-  console.log("✅ Project initialized!");
+function main() {
+  prompt().then((answers) => {
+    console.log(`Setting up project: ${answers.projectName}`);
+    copyRecursive(src, dest, answers);
+    console.log("✅ Project initialized!");
+  });
 }
 
-await main();
+main();

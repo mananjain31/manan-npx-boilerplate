@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "My custom boilerplate",
   "bin": {
-    "manan-npx-boilerplate": "./bin/index.js"
+    "manan-npx-boilerplate": "bin/index.js"
   },
   "files": [
     "bin",
