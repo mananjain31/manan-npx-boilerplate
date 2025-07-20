@@ -1,7 +1,7 @@
 {
-  "name": "manan-npx-boilerplate-app",
+  "name": "<%= projectName =%>",
   "version": "0.1.0",
-  "description": "A project created using my custom boilerplate",
+  "description": "<%= projectDescription =%>",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

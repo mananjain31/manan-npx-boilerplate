@@ -9,7 +9,14 @@
     "bin",
     "template"
   ],
-  "keywords": ["boilerplate", "starter"],
+  "keywords": [
+    "boilerplate",
+    "starter"
+  ],
   "author": "Manan Jain - mananjain31 (github)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "inquirer": "^12.7.0"
+  }
 }
